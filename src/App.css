@@ -8,6 +8,15 @@
   height: 100vh;
 }
 
+.productContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .textmiddle {
   display: flex;
   flex-direction: column;
@@ -15,11 +24,13 @@
 }
 
 .textmiddle__left {
-  padding-left: 100px;
+  align-self: flex-start;
+  padding-left: 5rem;
 }
 
 .textmiddle__right {
-  padding-left: 200px;
+  align-self: flex-end;
+  padding-right: 5rem;
 }
 
 .texts {

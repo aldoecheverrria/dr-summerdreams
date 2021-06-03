@@ -3,6 +3,10 @@ import YouTube from '@material-ui/icons/YouTube';
 import Instagram from '@material-ui/icons/Instagram';
 import Facebook from '@material-ui/icons/Facebook';
 import Twitter from '@material-ui/icons/Twitter';
+import  ArrowForward  from '@material-ui/icons/ArrowForward';
+import  ArrowBack  from '@material-ui/icons/ArrowBack';
+import LocalMall from "@material-ui/icons/LocalMall"
+import  {IconButton}  from '@material-ui/core';
 
 function App() {
   return (
@@ -29,6 +33,10 @@ function App() {
           <div className="textmiddle__right">DREAMS</div>
         </div>
       
+        <div className="buttons">
+          <div>Discover The Collection</div>
+          <ArrowForward/>
+        </div>
       </div>
 
 
@@ -38,7 +46,24 @@ function App() {
           <div className="headerRight__container2">container2</div>
           <div className="headerRight__container3">container3</div>
           <div className="headerRight__container4">container4</div>
-          <div className="headerRight__container5">container5</div>
+          <div className="headerRight__container5">
+            <div className="productContainer">
+              <div className="productDetails">
+                <h6>Chinesse Sweater <LocalMall/></h6>
+                
+                <h5>$120.90</h5>
+              </div>
+                <div className="arrows">
+                  <IconButton>
+                    <ArrowBack/>
+                  </IconButton>
+                <IconButton>
+                  <ArrowForward/>
+                </IconButton>
+            </div>
+            </div>
+            
+          </div>
         </div>
        
       </div>
