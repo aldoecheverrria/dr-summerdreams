@@ -8,27 +8,65 @@
   height: 100vh;
 }
 
+.textmiddle {
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+}
+
+.textmiddle__left {
+  padding-left: 100px;
+}
+
+.textmiddle__right {
+  padding-left: 200px;
+}
+
+.texts {
+  padding-top: 100px;
+  padding-left: 40px;
+  font-size: small;
+}
+
+.headerLeft__upper {
+  display: flex;
+}
+
+.headerLeft__upper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+
+.icons > .MuiSvgIcon-root {
+  margin-right: 0.5vw;
+  color: #c6b3fd;
+}
+
 .headerLeft {
   flex: 0.5;
-  background-color: #e0e7fe;
+  background-image: url("https://cdn.pixabay.com/photo/2017/04/03/15/51/waves-2198764_960_720.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.sidebar .headerRight {
+.headerRight {
   flex: 0.5;
   background-image: url("https://cdn.pixabay.com/photo/2021/04/03/02/31/ao-dai-6146344_960_720.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.circle {
-  width: 200px;
-  height: 200px;
-  background: #c6b3fd;
-  filter: blur(1.5rem);
-}
-
 .headerRight__container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .headerRight__container1 {
