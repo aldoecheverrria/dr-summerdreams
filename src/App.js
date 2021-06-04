@@ -1,9 +1,10 @@
 import './App.css';
-import YouTube from '@material-ui/icons/YouTube';
-import Instagram from '@material-ui/icons/Instagram';
-import Facebook from '@material-ui/icons/Facebook';
-import Twitter from '@material-ui/icons/Twitter';
+import InstagramIcon from "@material-ui/icons/Instagram";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import YouTubeIcon from "@material-ui/icons/YouTube";
 import  ArrowForward  from '@material-ui/icons/ArrowForward';
+import MenuIcon from '@material-ui/icons/Menu';
 import  ArrowBack  from '@material-ui/icons/ArrowBack';
 import LocalMall from "@material-ui/icons/LocalMall"
 import  {IconButton}  from '@material-ui/core';
@@ -18,10 +19,10 @@ function App() {
             DreamSpace
           </div>
           <div className="icons">
-            <Instagram/>
-            <YouTube/>
-            <Facebook/>
-            <Twitter/>
+            <InstagramIcon/>
+            <TwitterIcon/>
+            <FacebookIcon/>
+            <YouTubeIcon/>
           </div>
         </div>
         <div className="texts">
@@ -41,30 +42,7 @@ function App() {
 
 
       <div className="headerRight">
-        <div className="headerRight__container">
-          <div className="headerRight__container1">container1</div>
-          <div className="headerRight__container2">container2</div>
-          <div className="headerRight__container3">container3</div>
-          <div className="headerRight__container4">container4</div>
-          <div className="headerRight__container5">
-            <div className="productContainer">
-              <div className="productDetails">
-                <h6>Chinesse Sweater <LocalMall/></h6>
-                
-                <h5>$120.90</h5>
-              </div>
-                <div className="arrows">
-                  <IconButton>
-                    <ArrowBack/>
-                  </IconButton>
-                <IconButton>
-                  <ArrowForward/>
-                </IconButton>
-            </div>
-            </div>
-            
-          </div>
-        </div>
+        <MenuIcon/>
        
       </div>
     </div>
